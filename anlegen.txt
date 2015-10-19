@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<title>Anlegen</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+ 
+ 
+ 
+ <form class=horizontalform>
+		<div class="form-group">
+			<label class= "col-large-2 control-label" for="titel">Titel</label>
+			<input type="text" class="form-control" placeholder="Text input">
+		</div>
+		<div class="form-group">
+			<label for="termin">Termin</label>
+			<input placeholder="Date" class="textbox-n" type="text" onfocus="(this.type='date')"  id="date"> 
+		</div>
+		<div class="form-group">
+			<label for="comment">Kommentare:</label>
+			<textarea class="form-control" rows="5" id="comment"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="exampleInputFile">File input</label>
+			<input type="file" id="exampleInputFile">
+			<p class="help-block">Example block-level help text here.</p>
+		</div>
+		
+		<button type="submit" class="btn btn-default">Submit</button>
+	</form>
+</body>
+</html>
